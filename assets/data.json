@@ -1,0 +1,34 @@
+{
+    "projects":[
+        {
+            "title":"Landing-Page",
+            "description": "This is a basic web page haiving navbar, main-section and footer and also contain contact detail. This is created by using react.",
+            "url":"https://merry-cassata-730863.netlify.app",
+            "imgSrc":"https://image.freepik.com/free-vector/technology-concept-landing-page_23-2148337738.jpg"
+        },
+        {
+            "title":"Weather-API",
+            "description": "This weather-api gives the real time temperature of all the city you search in celcius.",
+            "url":"https://dreamy-mousse-dbd7aa.netlify.app",
+            "imgSrc":"https://superdevresources.com/wp-content/uploads/2014/02/Weather-Api.jpg"
+        },
+        {
+            
+            "title":"Flipkart Landing-Page",
+            "description": "This is Flipkart-Landing-Page created by usimg Javascript. It is similarly looks like Flipkart Page.",
+            "url":"https://teal-fenglisu-7072ee.netlify.app",
+            "imgSrc":"https://images.thequint.com/thequint/2019-07/e5d016ed-8ed1-40dd-92b3-5a1e9ff51e1e/actual_flipkart_website.JPG?auto=format%2Ccompress"
+        },{
+            "title":"Drawing-App",
+            "description": "In this you can set the size and color of pencil and draw whatever you want.",
+            "url":"https://visionary-otter-4b4b88.netlify.app",
+            "imgSrc":"https://www.maketecheasier.com/assets/uploads/2019/06/simple-drawing-apps-mac-paintbrush.jpg"
+        },{
+            "title":"Facebook-Login-Page",
+            "description": "This is created by using HTML and CSS. Exactly looks like facebook login page.",
+            "url":"https://facebookloginpge.netlify.app",
+            "imgSrc":"https://tse2.mm.bing.net/th?id=OIP.-W3u40vmPWco__GWWEC8_QHaDs&pid=Api&P=0&h=180"
+        }
+        
+    ]
+}
