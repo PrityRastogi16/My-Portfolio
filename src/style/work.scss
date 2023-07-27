@@ -1,0 +1,68 @@
+#work{
+    width: 100%;
+    height: 100vh;
+    padding: 8rem 13.33vmax;
+    >h2{
+        font: 700 2.4rem "Roboto", sans-serif;
+        border-bottom: 1px solid #161616 ;
+        width: fit-content;
+        padding: 0.5rem;
+        margin: auto;
+   }
+   >section{
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+    background-color: #292b64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >article{
+        width: 70%;
+        height: 25vmax;
+
+    }
+    .workItem{
+        overflow-y: auto;
+        margin: auto;
+        padding: 2rem;
+        height: 25vmax;
+        width: 95%;
+        background-color: #fff;
+        box-shadow: 0 0 20px 5px #fef2f2;
+      
+        >img{
+            width: 35%;
+            object-fit: cover;
+            border-radius: 20px;
+            
+        }
+        >aside{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >p{
+                line-height: 180%;
+                letter-spacing: 2.5px;
+                margin: 2rem;
+            }
+            >a{
+                background-color: #46d8d1;
+                padding: 0.6rem 2rem ;
+                margin: 2rem;
+                color: #fff;
+                color:#161616;
+                border-radius: 8px;
+                border: 1px solid #000;
+                transition: all 0.3s;
+                &:hover{
+                    background-color: #95f6f1;
+                }
+            }
+        }
+    }
+   }
+}

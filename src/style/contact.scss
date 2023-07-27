@@ -1,0 +1,61 @@
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+
+    > section{
+        background-color: #fef2f2;
+        height: 100%;
+        width: 100%;
+
+        >form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            >h2{
+                text-align: center;
+                font:100 2.5rem;
+                letter-spacing: 5px;
+                margin: 2rem;
+            }
+            >input, >button{
+                width: 40%;
+                padding: 0.7rem;
+                outline: none;
+                margin: 1rem;
+                border: none;
+                font: 400 1rem;
+            }
+            >button {
+              cursor: pointer;
+              background-color: #46d8d1;
+              color: #000;
+              font: 600 1rem;
+              border-radius: 7px;
+              border: 1px solid #000;
+              text-transform: uppercase;
+              margin: 3rem;
+              &:hover{
+                background-color: #95f6f1;
+
+              }
+            }
+        }
+    }
+    >aside{
+        width: 100%;
+        height: 100%;
+        background-color: #292b46;
+        display: grid;
+        place-items: center;
+          img{
+            width: 60%;
+            height: 100%;
+            object-fit: cover;
+            filter: drop-shadow(0 0 10px rgba(128, 122, 122, 0.65)) hue-rotate(290deg);
+          }
+    }
+}
